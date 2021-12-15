@@ -33,4 +33,3 @@ export const put = <T>(url: string, body?: unknown) => request<T>(url, "PUT", bo
 export const get = <T>(url: string) => request<T>(url, "GET");
 
 export const del = <T>(url: string, body?: unknown) => request<T>(url, "DELETE", body);
-
